@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		56C82FF32C60092E009080F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C82FF22C60092E009080F3 /* AppDelegate.swift */; };
 		56C82FF52C60092E009080F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C82FF42C60092E009080F3 /* SceneDelegate.swift */; };
-		56C82FF72C60092E009080F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C82FF62C60092E009080F3 /* ViewController.swift */; };
 		56C82FFA2C60092E009080F3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 56C82FF92C60092E009080F3 /* Base */; };
 		56C82FFC2C600931009080F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C82FFB2C600931009080F3 /* Assets.xcassets */; };
 		56C82FFF2C600931009080F3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 56C82FFE2C600931009080F3 /* Base */; };
+		56C830072C6009FB009080F3 /* CardSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C830062C6009FB009080F3 /* CardSelectionViewController.swift */; };
+		56C830092C6015A2009080F3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C830082C6015A2009080F3 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		56C82FEF2C60092E009080F3 /* CardWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C82FF22C60092E009080F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56C82FF42C60092E009080F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		56C82FF62C60092E009080F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		56C82FF92C60092E009080F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		56C82FFB2C600931009080F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56C82FFE2C600931009080F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56C830002C600931009080F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56C830062C6009FB009080F3 /* CardSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionViewController.swift; sourceTree = "<group>"; };
+		56C830082C6015A2009080F3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,10 @@
 		56C82FF12C60092E009080F3 /* CardWorkout */ = {
 			isa = PBXGroup;
 			children = (
+				56C830082C6015A2009080F3 /* Card.swift */,
+				56C830062C6009FB009080F3 /* CardSelectionViewController.swift */,
 				56C82FF22C60092E009080F3 /* AppDelegate.swift */,
 				56C82FF42C60092E009080F3 /* SceneDelegate.swift */,
-				56C82FF62C60092E009080F3 /* ViewController.swift */,
 				56C82FF82C60092E009080F3 /* Main.storyboard */,
 				56C82FFB2C600931009080F3 /* Assets.xcassets */,
 				56C82FFD2C600931009080F3 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56C82FF72C60092E009080F3 /* ViewController.swift in Sources */,
 				56C82FF32C60092E009080F3 /* AppDelegate.swift in Sources */,
 				56C82FF52C60092E009080F3 /* SceneDelegate.swift in Sources */,
+				56C830072C6009FB009080F3 /* CardSelectionViewController.swift in Sources */,
+				56C830092C6015A2009080F3 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
