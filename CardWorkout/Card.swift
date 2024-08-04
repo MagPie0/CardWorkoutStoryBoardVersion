@@ -62,4 +62,4 @@ struct Card {
     UIImage(named: "AC")!
     ]
 }
-//force unwrapping because we know that we have the images
+//force unwrapping because we know that we have the card images
